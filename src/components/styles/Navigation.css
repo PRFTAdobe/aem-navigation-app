@@ -1,0 +1,78 @@
+
+        .app-navigation {
+            width: 100%;
+            display: block;
+        }
+
+        .brand h2 {
+            margin: unset;
+        }
+
+        .logo-mobile-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        
+        svg.mobile-nav-icon {
+            display: none;
+        }
+        
+        .app-menu {
+            list-style: none;
+            padding: 0;
+            margin: 25px 0 0 25px;
+        }
+    
+        .app-menu ul {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .link {
+            color: #242424;
+            text-decoration: none;
+        }
+
+        .app-menu-item {
+            list-style: none;
+            background-color: #ffffff;
+            border: none;
+            color: rgb(0, 0, 0);
+            padding: 0.7em 1.7em;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 700;
+            margin: 4px 2px;
+            opacity: 0.6;
+            transition: 0.3s;
+            display: inline-block;
+            text-decoration: none;
+            cursor: pointer;
+            
+        }
+
+        .app-menu-item:hover {
+            opacity: 1;
+        }
+    
+        button#mobile-nav {
+            border: none;
+        }
+
+        svg.mobile-nav-icon {
+            display: block;
+            width: 22px;
+            border: none;
+        }
+
+        .app-menu-item {
+            flex: unset;
+            flex-basis: 100%; /* Collapse to single column */
+            margin-right: 25px;
+        }
+        
